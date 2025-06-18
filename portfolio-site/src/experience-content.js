@@ -5,10 +5,10 @@ const experiences = [
     company: 'Radio Free Asia - Washington, DC',
     dateRange: 'Jun 2022 - Apr 2025',
     content: [
-      `• Developed modern, WCAG-compliant interfaces in React, ensuring accessibility and cross-browser compatibility. `,
-      `• Migrated legacy infrastructure from Plone CMS to Arc XP.`,
-      `• Built a reusable component design system in Figma to streamline UI consistency and developer efficiency. `,
-      `• Collaborated in Agile sprints with UX, product, and engineering teams to ship production-ready features. `,
+      `Developed modern, WCAG-compliant interfaces in React, ensuring accessibility and cross-browser compatibility. `,
+      `Migrated legacy infrastructure from Plone CMS to Arc XP.`,
+      `Built a reusable component design system in Figma to streamline UI consistency and developer efficiency. `,
+      `Collaborated in Agile sprints with UX, product, and engineering teams to ship production-ready features. `,
     ],
     skills: [
       `React`,
@@ -30,9 +30,9 @@ const experiences = [
     company: 'Radio Free Asia - Washington, DC',
     dateRange: 'Oct 2018 - Jun 2022',
     content: [
-      `• Partnered with ditorial teams to refine content strategies using data from Adobe Analytics and Google Analytics. `,
-      `• Delivered quarterly/yearly metrics reports for website and social media performance to stakeholders. `,
-      `• Managed site updates using HTML/CSS in Plone CMS, improving user engagement. `,
+      `Partnered with ditorial teams to refine content strategies using data from Adobe Analytics and Google Analytics. `,
+      `Delivered quarterly/yearly metrics reports for website and social media performance to stakeholders. `,
+      `Managed site updates using HTML/CSS in Plone CMS, improving user engagement. `,
     ],
     skills: [
       `Plone`,
@@ -54,9 +54,9 @@ const experiences = [
     company: 'Radio Free Asia - Washington, DC',
     dateRange: 'Oct 2016 - Sept 2018',
     content: [
-      `• Developed responsive interfaces from static designs using HTML, CSS, and JavaScript. `,
-      `• Contributed backend Python development in Plone CMS, including unit test creation. `,
-      `• Created modular, reusable components and ensured cross-browser compatibility.`,
+      `Developed responsive interfaces from static designs using HTML, CSS, and JavaScript. `,
+      `Contributed backend Python development in Plone CMS, including unit test creation. `,
+      `Created modular, reusable components and ensured cross-browser compatibility.`,
     ],
     skills: [
       `Plone`,
@@ -76,9 +76,9 @@ const experiences = [
     company: 'Various Places',
     dateRange: 'Jun 2013 - Oct 2018',
     content: [
-      `• Designed and developed custom websites using HTML, CSS, JavaScript, and jQuery.`,
-      `• Delivered iterative prototypes with a focus on UX and accessibility. `,
-      `• Produced 3D visualizations and branding assets including logos, business cards, packaging, and websites.`,
+      `Designed and developed custom websites using HTML, CSS, JavaScript, and jQuery.`,
+      `Delivered iterative prototypes with a focus on UX and accessibility. `,
+      `Produced 3D visualizations and branding assets including logos, business cards, packaging, and websites.`,
     ],
     skills: [
       `HTML`,

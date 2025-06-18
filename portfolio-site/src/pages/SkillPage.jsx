@@ -2,39 +2,38 @@ import skills from '../skills-content';
 
 export default function SkillPage() {
   return (
-    <div className="bg-white">
-      <div className="relative isolate px-6 lg:px-8">
-        <div
-          aria-hidden="true"
-          className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-        >
-          <div
-            style={{
-              clipPath:
-                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-            }}
-            className="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-          />
+    <div className="min-h-screen bg-[var(--primary)] text-white">
+      <div className="max-w-6xl mx-auto grid sm:grid-cols-2 gap-8 items-start text-left">
+        {/* Left Section: Heading & Intro */}
+        <div>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
+            Skills
+          </h1>
+          <p className="text-base leading-relaxed">
+            A snapshot of the technologies, tools, and disciplines I use to
+            build thoughtful and performant user experiences.
+          </p>
         </div>
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-28">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
-          <div className="text-left">
-            <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-              Skills
-            </h1>
-            {skills.map((a) => (
-              <div>
-                <h3 className="mt-8 text-xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl">
-                  {a.title}
-                </h3>
-                {a.skills?.map((list) => (
-                  <span className="mt-2 text-md font-normal tracking-tight text-balance text-gray-900 sm:text-md">
-                    {list},{' '}
+
+        {/* Right Section: Skill Categories */}
+        <div className="bg-[var(--secondary)] rounded-2xl p-6 text-white space-y-6 shadow-md">
+          {skills.map((a, index) => (
+            <div key={index}>
+              <h3 className="text-lg font-semibold text-[var(--tertiary)] mb-2">
+                {a.title}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {a.skills?.map((skill, i) => (
+                  <span
+                    key={i}
+                    className="inline-block rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white"
+                  >
+                    {skill}
                   </span>
                 ))}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

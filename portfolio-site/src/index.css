@@ -1,2 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
+:root {
+  --primary: #f8c8dc; /* Rich blush pink */
+  --secondary: #90e0d5; /* Stronger mint green */
+  --tertiary: #a5b4fc; /* Soft but visible periwinkle */
+  --accent: #fcbf49; /* Muted golden yellow */
+  --text-dark: #1e293b; /* Slate for clear readability */
+  --text-light: #ffffff;
+}
