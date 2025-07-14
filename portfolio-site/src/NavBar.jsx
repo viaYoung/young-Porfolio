@@ -12,7 +12,7 @@ const navigation = [
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-[var(--primary)] text-white max-w-6xl mx-auto">
+    <header className="fixed inset-x-0 top-0 z-50 bg-[var(--primary)] max-w-6xl mx-auto">
       <nav aria-label="Global" className="px-6 lg:px-16">
         <div className="max-w-6xl mx-auto flex items-center justify-between py-4">
           {/* Left: Logo or Name */}

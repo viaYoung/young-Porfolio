@@ -2,7 +2,7 @@ import skills from '../skills-content';
 
 export default function SkillPage() {
   return (
-    <div className="min-h-screen bg-[var(--primary)] text-white">
+    <div className="min-h-screen bg-[var(--primary)]">
       <div className="max-w-6xl mx-auto grid sm:grid-cols-2 gap-8 items-start text-left">
         {/* Left Section: Heading & Intro */}
         <div>
@@ -16,17 +16,17 @@ export default function SkillPage() {
         </div>
 
         {/* Right Section: Skill Categories */}
-        <div className="bg-[var(--secondary)] rounded-2xl p-6 text-white space-y-6 shadow-md">
+        <div className="bg-[var(--secondary)] rounded-2xl p-6 space-y-6 shadow-md">
           {skills.map((a, index) => (
             <div key={index}>
-              <h3 className="text-lg font-semibold text-[var(--tertiary)] mb-2">
+              <h3 className="text-lg font-semibold text-[var(--text-dark)] mb-2">
                 {a.title}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {a.skills?.map((skill, i) => (
                   <span
                     key={i}
-                    className="inline-block rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white"
+                    className="inline-block rounded-xl border border-white/20 bg-[var(--accent)]/10 px-4 py-2 text-sm font-medium"
                   >
                     {skill}
                   </span>
