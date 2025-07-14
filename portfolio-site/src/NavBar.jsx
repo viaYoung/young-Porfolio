@@ -39,7 +39,7 @@ export default function NavBar() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
-              className="inline-flex items-center justify-center rounded-md p-2 text-white"
+              className="inline-flex items-center justify-center rounded-md p-2 text-[var(--accent)]"
             >
               <span className="sr-only">Open main menu</span>
               <Bars3Icon aria-hidden="true" className="h-6 w-6" />
@@ -55,12 +55,12 @@ export default function NavBar() {
         className="relative z-50 lg:hidden"
       >
         <div className="fixed inset-0 bg-black/50" aria-hidden="true" />
-        <DialogPanel className="fixed inset-0 z-50 w-full h-full bg-[var(--primary)] text-white p-6">
+        <DialogPanel className="fixed inset-0 z-50 w-full h-full bg-[var(--primary)] text-grey p-6">
           {/* Close Button */}
           <div className="flex justify-end mb-4">
             <button
               onClick={() => setMobileMenuOpen(false)}
-              className="rounded-md p-2 text-white hover:text-[var(--secondary)]"
+              className="rounded-md p-2 text-grey hover:text-[var(--secondary)]"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
